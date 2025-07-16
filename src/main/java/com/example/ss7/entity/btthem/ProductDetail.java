@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 @Entity
 @Data
+@Table(name = "`product_detail`")
 public class ProductDetail {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long productDetailId;
